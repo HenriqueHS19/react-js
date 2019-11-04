@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  font-size: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.section {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 100px 0px;
+}
+
+.title {
+  font-size: 3.5rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.separator {
+  height: 2px;
+  padding: 0px 50px;
+  background-color: #6a8ab3;
+  border: none;
+  margin-bottom: 30px;
+}
+
+.subtitle {
+  font-size: 1.7rem;
+  font-style: italic;
+  color: #888;
+  text-align: center;
+  margin-bottom: 100px;
+}

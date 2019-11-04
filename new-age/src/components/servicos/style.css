@@ -1,0 +1,51 @@
+.servicos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+.grid {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.grid-item {
+    width: 300px;
+    height: 300px;  
+    background-color: #fff;
+    border: 1px solid #aaaaaa;
+    border-radius: 4px;
+    text-align: inherit;
+    margin: 20px;
+    padding: 50px 40px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;   
+}
+
+.grid-item i {
+    font-size: 3rem;
+    margin-bottom: 25px;
+}
+
+.grid-text h4 {
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.grid-text p {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #888;
+    margin-bottom: 25px;
+}
+

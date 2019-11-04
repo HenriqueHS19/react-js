@@ -1,0 +1,50 @@
+header {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 15px  10px;
+    position: fixed;
+    z-index: 99;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.logo {
+    width: 150px;
+    margin-left: 50px;
+}
+
+.menu {
+    margin-right: 100px;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu ul li a {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-left: 45px;
+    padding: 30px 0px;
+}
+.menu ul:last-child {
+    margin-left: 0px;
+}
+
+/* Breakpoint */
+@media (max-width: 750px) {
+    header {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .menu {
+        margin: 0 auto;
+        margin-top: 10px; 
+    }
+
+}
